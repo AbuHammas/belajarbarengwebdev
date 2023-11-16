@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PR HTML & CSS Bagian 13</title>
+  </head>
+  <body>
+    <p>Penggunaan tag table / tabel</p>
+    <table border="1">
+      <tr>
+        <td>Baris 1 kolom 1</td>
+        <td>Baris 1 kolom 2</td>
+        <td>Baris 1 kolom 3</td>
+      </tr>
+      <tr>
+        <td>Baris 2 kolom 1</td>
+        <td>Baris 2 kolom 2</td>
+        <td>Baris 2 kolom 3</td>
+      </tr>
+      <tr>
+        <td>Baris 3 kolom 1</td>
+        <td>Baris 3 kolom 2</td>
+        <td>Baris 3 kolom 3</td>
+      </tr>
+    </table>
+    <p>Penggunaan tag table / tabel dan 2 kolom digabungkan</p>
+    <table border="1">
+      <tr>
+        <td colspan="2">Baris 1 kolom 1</td>
+        <td>Baris 1 kolom 2</td>
+        <td>Baris 1 kolom 3</td>
+      </tr>
+      <tr>
+        <td>Baris 2 kolom 1</td>
+        <td>Baris 2 kolom 2</td>
+        <td>Baris 2 kolom 3</td>
+      </tr>
+      <tr>
+        <td>Baris 3 kolom 1</td>
+        <td>Baris 3 kolom 2</td>
+        <td>Baris 3 kolom 3</td>
+      </tr>
+    </table>
+    <p>Penggunaan tag table / tabel dan 2 baris digabungkan</p>
+    <table border="1">
+      <tr>
+        <td rowspan="2">Baris 1 kolom 1</td>
+        <td>Baris 1 kolom 2</td>
+        <td>Baris 1 kolom 3</td>
+      </tr>
+      <tr>
+        <td>Baris 2 kolom 1</td>
+        <td>Baris 2 kolom 2</td>
+        <td>Baris 2 kolom 3</td>
+      </tr>
+      <tr>
+        <td>Baris 3 kolom 1</td>
+        <td>Baris 3 kolom 2</td>
+        <td>Baris 3 kolom 3</td>
+      </tr>
+    </table>
+
+    <p>Penggunaan tag table di dalam table</p>
+    <table border="1" width="300" height="200">
+      <tr>
+        <td>
+          <table border="1" width="300" height="200">
+            <tr>
+              <td>Baris 1 kolom 1</td>
+              <td>Baris 1 kolom 2</td>
+              <td>Baris 1 kolom 3</td>
+            </tr>
+            <tr>
+              <td>Baris 2 kolom 1</td>
+              <td>Baris 2 kolom 2</td>
+              <td>Baris 2 kolom 3</td>
+            </tr>
+            <tr>
+              <td>Baris 3 kolom 1</td>
+              <td>Baris 3 kolom 2</td>
+              <td>Baris 3 kolom 3</td>
+            </tr>
+          </table>
+        </td>
+        <td>Baris 1 kolom 2</td>
+        <td>Baris 1 kolom 3</td>
+      </tr>
+      <tr>
+        <td>Baris 2 kolom 1</td>
+        <td>Baris 2 kolom 2</td>
+        <td>Baris 2 kolom 3</td>
+      </tr>
+      <tr>
+        <td>Baris 3 kolom 1</td>
+        <td>Baris 3 kolom 2</td>
+        <td>Baris 3 kolom 3</td>
+      </tr>
+    </table>
+
+    <table width="800px" border="1" height="300px">
+      <tr>
+        <td>
+          <table width="245px" height="295px">
+            <tr>
+              <td><img src="kucingmeong.jpg" width="240px" height="290px" /></td>
+              <td>
+                <table width="550px" height="290px">
+                  <tr>
+                    <td>Nama Spesies</td>
+                    <td>:</td>
+                    <td>Kucing</td>
+                  </tr>
+                  <tr>
+                    <td>Ciri Fisk</td>
+                    <td>:</td>
+                    <td>
+                      Berbulu, ada cakarnya, ngegemesin
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Cara bertahan diri</td>
+                    <td>:</td>
+                    <td>
+                      Cakar dan gigi tajam, skill tatapan memelas plus meong meong tipis
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
