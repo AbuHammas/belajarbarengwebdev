@@ -1,0 +1,119 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+#site-container {
+  width: 960px;
+  height: auto;
+  margin: 20px auto;
+  border: 1px solid #000;
+  background:#66cccc;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+#header {
+  width: 950px;
+  height: 130px;
+  background: url(../images/header_1.jpg);
+  margin: 5px auto;
+  padding-top: 150px; /*menambahkan padding top & left u/ mengatur */
+  padding-left: 50px; /*posisi textjudul*/
+}
+#menu-content {
+  width: 950px;
+  height: auto;
+  margin: 5 auto;
+}
+#menu {
+  float: left;
+  width: 300px;
+  height: 600px;
+  border: 1px solid #000;
+}
+#content {
+  width: 610px;
+  height: auto;
+  /*border:1px solid #000;*/
+  float: right;
+  background: #66cccc;
+  padding: 15px;
+}
+#footer {
+  width: 950px;
+  height: 40px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  background: #66cccc;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: bold;
+  color: #fff;
+}
+.floating {
+  clear: both;
+  height: 0px;
+  line-height: 0px;
+}
+
+#header a {
+  font: 28pt "Matura MT Script Capitals";
+  text-decoration: none;
+  color: #ffffff;
+}
+#header p {
+  font: 20pt "Brush Script Std";
+  color: #ffffff;
+}
+.judul_1 {
+  display: block;
+  height: 40px;
+  background: #66cccc;
+  font: 20pt "Script MT Bold";
+  color: #fff;
+  text-align: center;
+  border: 1px solid #ffff;
+}
+#menu ul {
+  list-style: none;
+}
+#menu li a {
+  display: block;
+  height: 30px;
+  background: #66cccc;
+  font: 16pt "Script MT Bold";
+  color: #ffff;
+  text-decoration: none;
+  border-bottom: 1px solid #ffff;
+  border-left: 1px solid #ffff;
+  border-right: 1px solid #ffff;
+  padding-left: 20px;
+}
+
+#menu li a:hover {
+  background: #ababa5;
+  color: #fff;
+}
+.judul_2 {
+  display: block;
+  border-bottom: 2px solid #000;
+  font: 26pt "Script MT Bold";
+  color: #fff;
+  padding-bottom: 10px;
+}
+.img {
+  width: 250px;
+  height: 200px;
+  border: 5px solid #fff;
+  margin-top: 20px;
+  margin-right: 20px;
+  float: left;
+}
+#content p {
+  margin-top: 20px;
+}
+body {
+  background: rgb(48, 49, 48);
+  font: 10pt verdana;
+}
